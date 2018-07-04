@@ -1,0 +1,85 @@
+<resources>
+    <string name="app_name">My Coach</string>
+    <string name="title_activity_login">Entrar</string>
+    <string name="title_activity_main">My Coach</string>
+
+    <!-- Login -->
+    <string name="welcome_text">Bem vindo! Por favor faça login no My Coach:</string>
+    <string name="please_wait">Por favor aguarde</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Senha</string>
+    <string name="action_sign_in">Entrar</string>
+    <string name="action_sign_in_short">Entrar</string>
+    <string name="error_invalid_email">Email inválido</string>
+    <string name="error_field_required">Este campo é obrigatório</string>
+    <string name="error_no_connection">Parece que você não tem conexão com a internet</string>
+
+    <!-- Modalities -->
+    <string name="title_swimming">Natação</string>
+    <string name="title_running">Corrida</string>
+    <string name="title_body_workout">Musculação</string>
+
+    <!-- Opcoes ao usuario -->
+    <string-array name="opcoes_user">
+        <item>Seus treinos da semana</item>
+        <item>Frequências e metragens</item>
+        <item>Avaliação de cond. físico</item>
+        <item>Avaliações técnicas</item>
+        <item>Seus vídeos</item>
+    </string-array>
+    <string-array name="opcoes_user_desc">
+        <item>Acompanhe seus treinos da semana.</item>
+        <item>Confira a frequência e metragens dos seus treinos.</item>
+        <item>Um resumo do seu condicionamento físico.</item>
+        <item>As avaliações de cada técnica que você realiza.</item>
+        <item>Assista seus vídeos gravados por seu personal.</item>
+    </string-array>
+    <!-- opcoes ao coach -->
+    <string-array name="opcoes_coach">
+        <item>Treinos da semana</item>
+        <item>Frequências e metragens</item>
+        <item>Avaliação de cond. físico</item>
+        <item>Avaliações técnicas</item>
+        <item>Vídeos</item>
+    </string-array>
+    <string-array name="opcoes_coach_desc">
+        <item>Elabore os treinos da semana do seu aluno.</item>
+        <item>Frequências e metragens dos treinos.</item>
+        <item>Informações do condicionamento físico.</item>
+        <item>Avaliações de cada técnica executada.</item>
+        <item>Vídeos do seu aluno.</item>
+    </string-array>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- textos constantes -->
+    <string name="saudacao_frequencias">%1$s, aqui você pode averiguar sua frequência nas aulas e suas metragens de cada sessão de treino.</string>
+    <string name="saudacao_meus_videos">%1$s, aqui você pode assistir todos os seus vídeos.</string>
+    <string name="saudacao_avaliacao_tecnica">Confira sua avaliação técnica de Março de 2017, %1$s.</string>
+    <string name="frequencia_graph_title">Frequência</string>
+    <string name="metragem_graph_title">Metragem</string>
+    <string name="proxima_avaliacao">Próxima avaliação: Outubro 2017</string>
+    <string name="avaliacoes_anteriores">Avaliações anteriores</string>
+    <string name="title_activity_fragment_avaliacao_tecnica">Avaliações técnicas</string>
+    <string name="title_activity_fragment_outros_videos">Outros vídeos</string>
+    <string name="title_activity_fragment_meus_videos">Meus vídeos</string>
+    <string name="title_activity_fragment_avaliacao_cond_fisico">Avaliação cond. físico</string>
+    <string name="title_activity_fragment_opcoes">My Coach</string>
+    <string name="title_activity_fragment_treino">Treinos semanais</string>
+    <string name="title_activity_fragment_frequencias">Frequências e metragens</string>
+    <string name="personal_nome">Bruno Alexandre Bertelli</string>
+    <string name="personal_fone">(41) 99677-7343</string>
+    <string name="personal_mail">bertellipersonal@hotmail.com</string>
+    <string name="error_incorrect_password">Email ou senha incorretos</string>
+    <string name="voluta_facebook">facebook.com/volutasistemas</string>
+    <string name="developer_name">Jefferson Diego Fidencio</string>
+    <string name="developer_job">Mobile Developer</string>
+    <string name="developer_mail">jdfidencio@outlook.com</string>
+    <string name="sair_dialog_message">Deseja realmente sair do My Coach?</string>
+    <string name="sair_dialog_title">Logout</string>
+    <string name="sair_dialog_positive_button">Sair</string>
+    <string name="sair_dialog_negative_button">Cancelar</string>
+
+</resources>

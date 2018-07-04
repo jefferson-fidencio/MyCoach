@@ -1,0 +1,35 @@
+<resources>
+
+    <!-- Themes -->
+    <style name="AppTheme" parent="AppTheme.Base"></style>
+    <style name="AppTheme.Base" parent="Theme.AppCompat.Light.DarkActionBar"><!--"android:Theme.Material"-->
+        <!--We will be using the toolbar so no need to show ActionBar-->
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <!--   your app branding color for the app bar -->
+        <item name="android:colorPrimary">@color/colorAppPrimary</item>
+        <!--   darker variant for the status bar and contextual app bars -->
+        <item name="android:colorPrimaryDark">@color/colorAppPrimaryDark</item>
+        <!--   theme UI controls like checkboxes and text fields -->
+        <item name="android:colorAccent">@color/colorAppPrimaryLight</item>
+    </style>
+
+    <style name="ButtonsTheme">
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Small</item>
+        <item name="android:backgroundTint">@color/colorAppPrimaryDark</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextViewSaudacaoTheme">
+        <item name="android:layout_marginLeft">16dp</item>
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Medium</item>
+    </style>
+
+    <style name="CardViewTheme">
+        <item name="cardCornerRadius">5dp</item>
+        <item name="cardElevation">5dp</item>
+        <item name="cardUseCompatPadding">true</item>
+    </style>
+
+</resources>
